@@ -2,10 +2,10 @@ public class BasicCalculatorIfElse {
 
 	public static void main(String[] args) {
 
-		System.out.println("---------------------------------- \n" + "Welcome to Basic Calculator \n"
+		System.out.println("---------------------------------- \n" + "This is my Calculator \n"
 				+ "----------------------------------");
-		System.out.println("Following operations are supported : \n" + "1. Addition (+) \n" + "2. Subtraction (-) \n"
-				+ "3. Multiplication (* OR x) \n" + "4. Division (/) \n");
+		System.out.println("Please noe, the following operations are supported : \n" + "1. Addition (+) \n" + "2. Subtraction (-) \n"
+				+ "3. Multiplication (* OR x) \n" + "4. Division (/) \n"+", if your operation is not listed, it will not work.");
 
 		try(Scanner scanner = new Scanner(System.in))
 		{
